@@ -35,7 +35,7 @@
             figure
               img(src="@/assets/curso/tema1/img02.svg", alt="Entorno específico")
     
-    p.fs-4.fw-lighter.w-75.mb-5 Tanto el contexto general como el específico, incluyen diversos aspectos que componen el entorno de la empresa y se pueden observar en la siguiente tabla.
+    p.fs-4.w-75.mb-5 Tanto el contexto general como el específico, incluyen diversos aspectos que componen el entorno de la empresa y se pueden observar en la siguiente tabla.
 
     .tabla-d.mb-5
       table
@@ -224,7 +224,7 @@
         .contColor--03
           img.imgCCont.mx-auto(src='@/assets/curso/tema1/img05.svg', alt='Entorno competitivo')
           h5.text-center.mb-2 Entorno competitivo
-          p.fs-5.text-center.mb-3 FUERZAS DE LA INDUSTRIA
+          p.fs-6.text-center.mb-3 FUERZAS DE LA INDUSTRIA
           p.text-center
             | • Proveedores y otros actores de la cadena de valor
             br
@@ -239,7 +239,7 @@
         .contColor--01
           img.imgCCont.mx-auto(src='@/assets/curso/tema1/img03.svg', alt='Mercado')
           h5.text-center.mb-2 Mercado
-          p.fs-5.text-center.mb-3 FUERZAS DE MERCADO
+          p.fs-6.text-center.mb-3 FUERZAS DE MERCADO
           p.text-center
             | • Segmentos de mercado
             br
@@ -257,7 +257,7 @@
         .contColor--04
           img.imgCCont.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='Tendencias')
           h5.text-center.mb-2 Tendencias
-          p.fs-5.text-center.mb-3 TENDENCIAS CLAVE
+          p.fs-6.text-center.mb-3 TENDENCIAS CLAVE
           p.text-center
             | • Tecnológicas
             br
@@ -270,7 +270,7 @@
         .contColor--02
           img.imgCCont.mx-auto(src='@/assets/curso/tema1/img04.svg', alt='Entorno macroeconómico')
           h5.text-center.mb-2 Entorno macroeconómico
-          p.fs-5.text-center.mb-3 FUERZAS MACROECONÓMICAS
+          p.fs-6.text-center.mb-3 FUERZAS MACROECONÓMICAS
           p.text-center
             | • Condiciones
             br
@@ -282,13 +282,13 @@
 
     .h5.mb-5 1.2.1 Entorno competitivo 
     
-    .row.m-1.mb-4.contColor--03.w-75
-      .col-5
+    .row.m-1.mb-4.contColor--03.w-75.justify-content-center
+      .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
         img.imgCCont.mx-auto(src='@/assets/curso/tema1/img05.svg', alt='Entorno competitivo')
         p.fs-5.text-center Entorno competitivo
-      .col-1
+      .col-1.d-none.d-md-block
         .lineDec--03
-      .col-6
+      .col-10.col-md-6
         h6.text-center.mb-3 FUERZAS DE LA INDUSTRIA
         p.text-center
           | • Proveedores y otros actores de la cadena de valor
@@ -324,13 +324,13 @@
     
     .h5.mb-5 1.2.2 Mercado
     
-    .row.m-1.mb-4.contColor--01.w-75
-      .col-5
+    .row.m-1.mb-4.contColor--01.w-75.justify-content-center
+      .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
         img.imgCCont.mx-auto(src='@/assets/curso/tema1/img03.svg', alt='Mercado')
         p.fs-5.text-center Mercado
-      .col-1
+      .col-1.d-none.d-md-block
         .lineDec--01
-      .col-6
+      .col-10.col-md-6
         h6.text-center.mb-3 FUERZAS DE MERCADO
         p.text-center
           | • Segmentos de mercado
@@ -376,13 +376,13 @@
     
     .h5.mb-5 1.2.3 Tendencias
     
-    .row.m-1.mb-4.contColor--04.w-75
-      .col-5
+    .row.m-1.mb-4.contColor--04.w-75.justify-content-center
+      .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
         img.imgCCont.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='Tendencias')
         p.fs-5.text-center Tendencias
-      .col-1
+      .col-1.d-none.d-md-block
         .lineDec--04
-      .col-6
+      .col-10.col-md-6
         h6.text-center.mb-3 TENDENCIAS CLAVE
         p.text-center
           | • Tecnológicas
@@ -404,13 +404,13 @@
     
     .h5.mb-5 1.2.4 Entorno macroeconómico
     
-    .row.m-1.mb-4.contColor--02.w-75
-      .col-5
+    .row.m-1.mb-4.contColor--02.w-75.justify-content-center
+      .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
         img.imgCCont.mx-auto(src='@/assets/curso/tema1/img04.svg', alt='Entorno macroeconómico')
         p.fs-5.text-center Entorno macroeconómico
-      .col-1
+      .col-1.d-none.d-md-block
         .lineDec--02
-      .col-6
+      .col-10.col-md-6
         h6.text-center.mb-3 FUERZAS MACROECONÓMICAS
         p.text-center
           | • Condiciones

@@ -222,7 +222,7 @@
         margin: 0
         padding: 0
         display: flex
-        flex-wrap: wrap
+        flex-wrap: wrap        
         
         &--20
             @extend .colDiv
@@ -233,9 +233,8 @@
             width: 50%
         
         button
-            background-color: transparent
-            border-radius: 0
-            
+            border-radius: 0 !important
+
             &:hover
                 background-color: transparent
             &:focus
@@ -278,7 +277,12 @@
                 &:hover
                     background-color: $colorDiv04
                 &:focus
-                    background-color: darken($colorDiv04, 5%)        
+                    background-color: darken($colorDiv04, 5%)       
+
+@media only screen and (max-width: 768px)
+    .colDiv
+        p
+            font-size: 12px
 
 
 .MapaCont
