@@ -96,62 +96,22 @@ export const creditos = {
   },
   contenidoInstruccional: [
     {
-      nombre: 'Gloria Matilde Lee Mejía',
-      cargo: 'Responsable del equipo',
-      centro: 'Centro de Comercio y Servicios',
-      regional: 'Regional Tolima',
-    },
-    {
       nombre: 'Rafael Neftalí Lizcano Reyes',
-      cargo: 'Asesor pedagógico',
-      centro: 'Centro Industrial del Diseño y la Manufactura',
+      cargo: 'Asesor metodológico y pedagógico',
+      centro: 'Centro Industrial Del Diseño Y La Manufactura',
       regional: 'Regional Santander',
     },
     {
-      nombre: 'Astrid Lili Puerta',
-      cargo: 'Experta temática',
-      centro: 'Centro Agropecuario de Buga',
-      regional: 'Regional valle',
+      nombre: 'Tania Yaneth Ramírez Benítez',
+      cargo: 'Soporte organizacional',
+      centro: 'Centro de comercio y servicios',
+      regional: 'Regional Tolima',
     },
     {
-      nombre: 'Javier Enrique Santana',
-      cargo: 'Experto temático',
-      centro: 'Centro de Gestión Industrial',
-      regional: 'Regional Distrito Capital',
-    },
-    {
-      nombre: 'Michael Andrés Cortés Caro',
-      cargo: 'Experto temático',
-      centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-    },
-    {
-      nombre: 'Mauricio Jiménez Fajardo',
-      cargo: 'Experto temático',
-      centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-    },
-    {
-      nombre: 'Manuel Alejandro Garzón Cárdenas',
-      cargo: 'Experto temático',
-      centro: 'Deutsche Gesellschaft für',
-      regional: 'Internationale Zusammenarbeit (GIZ)',
-    },
-    {
-      nombre: 'Liliana Victoria Morales Gualdrón',
-      cargo: 'Diseñador instruccional',
-      centro: 'Centro para la Industria y la Comunicación Gráfica',
-      regional: 'Regional Distrito Capital',
-    },
-    {
-      nombre: 'Carlos Andrés Rodríguez',
-      cargo: 'Evaluador instruccional',
-      centro: 'Centro de Diseño y Metrología',
-      regional: 'Regional Distrito Capital',
-    },
-    {
-      nombre: 'Julieth Paola Vital López',
+      nombre: 'Martha Isabel Martínez Vargas',
       cargo: 'Revisora de estilo',
-      centro: 'Centro para la Industria de la Comunicación Gráfica',
-      regional: 'Regional Distrito Capital',
+      centro: 'Centro Industrial Del Diseño Y La Manufactura',
+      regional: 'Regional Santander',
     },
   ],
   desarrolloProducto: [
@@ -161,14 +121,14 @@ export const creditos = {
     },
     {
       nombre: 'Leyson Fabian Castaño Perez',
-      cargo: 'Integración de recursos y pruebas',
+      cargo: 'Soporte organizacional',
     },
     {
-      nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
+      nombre: ['Carlos Julián Ramírez Benítez', 'Zuleidy Maria Ruiz Torres'],
       cargo: 'Diseño web y Producción Audiovisual',
     },
     {
-      nombre: 'Edward Leonardo Pico Cabra',
+      nombre: 'Luis Gabriel Urueta Alvarez',
       cargo: 'Desarrollo Front-End',
     },
     {
@@ -178,8 +138,8 @@ export const creditos = {
   ],
   gestoresRepositorio: [
     {
-      nombre: 'Brayan Stiven Pinto Diaz',
-      cargo: ['Desarrollo front-end', 'Validación de recursos'],
+      nombre: 'Milady Tatiana Villamil Castellanos',
+      cargo: 'Validación de recursos',
       centro: 'Centro de comercio y servicios',
       regional: 'Regional Tolima',
     },
