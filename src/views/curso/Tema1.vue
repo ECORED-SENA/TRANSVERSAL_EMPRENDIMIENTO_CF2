@@ -475,11 +475,12 @@
           .bloque-texto-a__texto.p-4
             p Para definir cada una de las secciones, al momento de desarrollar el modelo, el emprendedor responderá a una serie de preguntas que lo guiarán en la validación de cada aspecto, teniendo en cuenta que este es un modelo dinámico y que puede ajustarse a medida que se desarrolla.
 
-    p.mb-4
+    p#MapaText.mb-4
         | La siguiente figura muestra las nueve partes o subdivisiones del mapa estratégico y se analizarán cada una de las variables que pueden afectar un emprendimiento.
-        br
-        span.etiqueta--morada Nota: 
-        i Dar clic en las subdivisiones del mapa estrátegico para visualizar los elementos.
+    
+    p.mb-4
+      span.etiqueta--morada Nota: 
+      | Dar clic en las subdivisiones del mapa estrátegico para visualizar los elementos.
 
     #MapaGroup01
       .MapaNav.mb-3
@@ -802,7 +803,7 @@
         .col.mb-3.mb-sm-0
           hr.hrV02
         .col-sm-auto
-          a.mt-4.boton.boton--b(onclick="topMap")
+          a.mt-4.boton.boton--b(@click='topMap')
             span Subir al mapa estratégico 
             i.fas.fa-arrow-circle-up
     
@@ -827,12 +828,13 @@ export default {
   components: {
     BannerInterno,
   },
-}
-function topMap() {
-  var x = document.getElementById('MapaGroup01')
-  setTimeout(function() {
-    x.scrollIntoView({ behavior: 'smooth' })
-  }, 500)
+  methods: {
+    topMap() {
+      var x = document.getElementById('MapaText')
+      x.scrollIntoView({ behavior: 'smooth' })
+    },
+  },
 }
 </script>
+
 <style lang="sass" scoped></style>
