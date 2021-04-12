@@ -1,0 +1,344 @@
+
+.hrV01
+    width: 10%
+    background-color: transparent !important
+    border-bottom: 3px solid $color-curso-b !important
+    opacity: 1 !important
+
+.hrV02
+    background-color: transparent !important
+    border-bottom: 3px solid $color-curso-b !important
+    opacity: 1 !important
+
+.TextColor01
+    color: $color-curso-b
+
+//-----------------
+
+.contDiv
+
+    .imgDiv
+        width: 70px
+        margin-bottom: 16px
+
+    &--a
+        @extend .contDiv
+        background-color: $color-curso-a        
+        p, h4
+            color: $color-curso-c
+    
+    &--c
+        @extend .contDiv
+        background-color: $color-curso-c 
+        p, h4
+            color: $color-curso-a
+    
+    &--cl
+        @extend .contDiv
+        background-color: lighten($color-curso-c, 10%) 
+        p, h4
+            color: $color-curso-a
+
+//-----------------
+
+.TittleImg
+    display: flex
+    align-items: center
+
+    img
+        width: 70px
+        min-width: 70px
+        margin-right: 24px        
+
+//-----------------
+
+.cajonSlider
+    .carousel-conten
+        margin: 34px auto 50px auto
+        width: 68% !important  
+
+    .imgSliderIcon
+        width: 70px
+        margin-bottom: 16px
+
+    &--a
+        @extend .cajonSlider
+        background-color: $color-curso-a        
+        p, h3, h4, h5
+            color: $color-curso-c
+    
+    &--e
+        @extend .cajonSlider
+        background-color: #FCD0D7     
+        p, h3, h4, h5
+            color: $color-curso-a
+
+//-----------------
+
+#nav-tab
+    border: none
+    border-bottom: 2px solid $color-curso-c
+    background-color: lighten($color-curso-c, 15%)
+    border-radius: 8px 8px 0 0
+
+    button
+        color: $color-curso-a
+        border-radius: 8px 8px 0 0
+        transition: 0.5s
+
+        &:hover
+            border: 3px solid $color-curso-c
+            background-color: lighten($color-curso-c, 10%)        
+        
+    .active
+        border-top: 3px solid $color-curso-c !important
+        border-right: 3px solid $color-curso-c !important
+        border-left: 3px solid $color-curso-c !important
+    
+#nav-tabContent
+    padding: 26px
+    border-right: 3px solid $color-curso-c
+    border-left: 3px solid $color-curso-c
+    border-bottom: 3px solid $color-curso-c
+
+//-----------------
+
+.tabla-d
+    overflow-x: auto
+
+    table
+        min-width: 700px
+
+    thead
+        color: $table-header-color
+        background-color: $table-header-bg-color
+
+    th
+        border-color: $table-header-bg-color
+        font-weight: $base-bold-font-weight
+        text-align: center
+        background-color: darken($color-curso-b, 5%) 
+        color: white
+
+    tr:nth-child(even)
+        background-color: #f2f2f2
+
+
+//-----------------
+    
+.contColor
+    padding: 24px 16px
+    height: 100%
+
+    .imgCCont
+        width: 70px
+        margin-bottom: 20px
+
+    &--01
+        @extend .contColor
+        background-color: $colorDiv01
+        border: 2px solid darken($colorDiv01, 25%)
+    
+    &--02
+        @extend .contColor
+        background-color: $colorDiv02
+        border: 2px solid darken($colorDiv02, 25%)
+    
+    &--03
+        @extend .contColor
+        background-color: $colorDiv03
+        border: 2px solid darken($colorDiv03, 25%)
+    
+    &--04
+        @extend .contColor
+        background-color: $colorDiv04
+        border: 2px solid darken($colorDiv04, 25%)
+    
+    &--05
+        @extend .contColor
+        background-color: $colorDiv05
+
+        .imgE
+            width: auto
+            height: 25px
+
+        ul
+            i
+                color: darken($colorDiv05, 25%)
+
+
+.lineDec
+    position: relative
+    height: 100%
+
+    &::before
+        content: ''
+        position: absolute
+        transition: all .3s ease
+        border-style: solid
+        border-width: 20px        
+        top: 50%
+        transform: translateY(-50%)
+
+    &--01
+        @extend .lineDec
+        border-left: 3px solid darken($colorDiv01, 25%)
+
+        &::before
+            border-color: transparent transparent transparent darken($colorDiv01, 25%)
+
+    &--02
+        @extend .lineDec
+        border-left: 3px solid darken($colorDiv02, 25%)
+
+        &::before
+            border-color: transparent transparent transparent darken($colorDiv02, 25%)
+    
+    &--03
+        @extend .lineDec
+        border-left: 3px solid darken($colorDiv03, 25%)
+
+        &::before
+            border-color: transparent transparent transparent darken($colorDiv03, 25%)
+
+    &--04
+        @extend .lineDec
+        border-left: 3px solid darken($colorDiv04, 25%)
+
+        &::before
+            border-color: transparent transparent transparent darken($colorDiv04, 25%)
+    
+//-----------------
+
+.MapaNav
+    display: flex
+    flex-wrap: wrap
+    border: 2px solid darken($colorDiv05, 20%)
+
+    img
+        height: 70px
+
+    .colDiv
+        margin: 0
+        padding: 0
+        display: flex
+        flex-wrap: wrap
+        
+        &--20
+            @extend .colDiv
+            width: 20%
+
+        &--50
+            @extend .colDiv
+            width: 50%
+        
+        button
+            background-color: transparent
+            border-radius: 0
+            
+            &:hover
+                background-color: transparent
+            &:focus
+                background-color: transparent
+
+        .colDivCont
+            width: 100%
+            padding: 18px 5px 24px 5px
+            border: 2px solid darken($colorDiv05, 20%)
+            background-color: $colorDiv01
+            transition: 0.4s
+
+            &--01
+                @extend .colDivCont
+                background-color: transparent
+                &:hover
+                    background-color: $colorDiv01
+                &:focus
+                    background-color: darken($colorDiv01, 5%)
+
+            &--02
+                @extend .colDivCont
+                background-color: transparent
+                &:hover
+                    background-color: $colorDiv02
+                &:focus
+                    background-color: darken($colorDiv02, 5%)
+            
+            &--03
+                @extend .colDivCont
+                background-color: transparent
+                &:hover
+                    background-color: $colorDiv03
+                &:focus
+                    background-color: darken($colorDiv03, 5%)
+            
+            &--04
+                @extend .colDivCont
+                background-color: transparent
+                &:hover
+                    background-color: $colorDiv04
+                &:focus
+                    background-color: darken($colorDiv04, 5%)        
+
+
+.MapaCont
+    padding: 24px
+    border-radius: 12px
+    
+    &--01
+        @extend .MapaCont
+        background-color: lighten($colorDiv01, 2%)
+    
+    &--02
+        @extend .MapaCont
+        background-color: lighten($colorDiv02, 2%)
+    
+    &--03
+        @extend .MapaCont
+        background-color: lighten($colorDiv03, 2%)
+    
+    &--04
+        @extend .MapaCont
+        background-color: lighten($colorDiv04, 2%)
+    
+    .imgMapaCont
+        height: 70px
+        margin-bottom: -25px
+    
+    .DivMapaCont
+        padding: 40px 18px 18px 18px
+        border-radius: 8px
+
+        &--01
+            @extend .DivMapaCont
+            background-color: $colorDiv01
+
+            ul
+                i
+                    color: darken($colorDiv01, 25%)
+        
+        &--02
+            @extend .DivMapaCont
+            background-color: $colorDiv02
+
+            ul
+                i
+                    color: darken($colorDiv02, 25%)
+        
+        &--03
+            @extend .DivMapaCont
+            background-color: darken($colorDiv03, 3%)
+
+            ul
+                i
+                    color: darken($colorDiv03, 30%)
+        
+        &--04
+            @extend .DivMapaCont
+            background-color: darken($colorDiv04, 2%)
+
+            ul
+                i
+                    color: darken($colorDiv04, 25%)
+
+//------------------    
