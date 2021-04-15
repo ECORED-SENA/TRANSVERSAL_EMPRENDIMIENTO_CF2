@@ -9,18 +9,18 @@
       .h3 Análisis PESTEL
     
     .row.m-0.align-items-center.mb-5
-      .col-7.mb-4.mb-md-0
+      .col-12.col-md-7.mb-2.mb-md-0
         p.fs-3
           strong El análisis PESTEL 
           | es una herramienta que describe  el entorno en el que se desenvolverá el emprendimiento.
-      .col-5
+      .col-12.col-md-5
         .bloque-texto-a__texto.p-4
           p Este análisis describe los aspectos principales como la política, la economía, lo social, la tecnología, las políticas ambientales y las políticas legales.
     
     p.fs-4.text-center.w-75.mb-5.mx-auto La siguiente figura muestra el entorno general y específico que se debe describir en esta técnica.
 
-    .row.contColor--05.p-5.mb-5
-      .col-12.col-md-7.mb-5.mb-md-0
+    .row.contColor--05.justify-content-around.p-5.mb-5
+      .col-12.col-md-5.mb-5.mb-md-0
         figure
           img(src="@/assets/curso/tema2/img01.svg", alt="entorno general y específico")
       .col-12.col-md-5
@@ -49,10 +49,10 @@
               | Proceedores
     
     .row.align-items-center.justify-content-between.mb-5
-        .col-lg-6
+        .col-12.col-md-6.mb-4.mb-md-0
           hr.hrV01.float-end
           p.text-end.float-end A continuación, se describirán los factores generales utilizando preguntas guía, para que el emprendedor realice una reflexión sobre cada uno de los temas y describa, de forma sistemática, la forma en la cual estos factores pueden incidir en sus emprendimientos. 
-        .col-lg-4
+        .col-8.col-md-4
           figure
             img(src="@/assets/curso/tema2/img04.svg", alt="preguntas guía")
     

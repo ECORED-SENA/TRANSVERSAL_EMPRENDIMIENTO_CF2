@@ -45,7 +45,7 @@
     .row.justify-content-center.mb-5
       .col-12.col-md-9
         .row.align-items-center.justify-content-end
-          .col-4
+          .col-5.col-md-4
             div
               ul.lista-ul--color
                 li 
@@ -66,7 +66,7 @@
                 li 
                   i.fas.fa-check-square
                   | Operativos.
-          .col-6
+          .col-7
             figure
               img(src="@/assets/curso/intro/img06.svg", alt="fracaso")
     
