@@ -345,22 +345,22 @@
           ul.lista-ul
             li
               i.fas.fa-check-square
-              | Los organizacionales.
+              | El financiero
             li
               i.fas.fa-check-square
-              | El financiero.
+              | El bursátil.
             li
               i.fas.fa-check-square
-              | El mercadeo.
+              | El cambiario.
             li
               i.fas.fa-check-square
-              | Los recursos humanos.
+              | De compradores.
             li
               i.fas.fa-check-square
-              | La operación.
+              | De consumidores.
             li
               i.fas.fa-check-square
-              | La producción, entre otros.
+              | De revendedores.
     
     .h5.mb-5 1.2.2 Entorno macroeconómico
     

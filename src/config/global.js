@@ -170,31 +170,31 @@ export const creditos = {
 export const referencias = [
   {
     referencia:
-      'Alfaro, J., González, C. & Pina, M. (2013). Economía de la empresa. McGraw Hill. https://www.mhe.es/materia_familia.php?sub_materia=59&materia=17&nivel=B&comunidad=Castellano',
+      'Alfaro, J., González, C. & Pina, M. (2013). Economía de la empresa. McGraw Hill.',
     link:
       'https://www.mhe.es/materia_familia.php?sub_materia=59&materia=17&nivel=B&comunidad=Castellano',
   },
   {
     referencia:
-      'Centro de Innovación Pública Digital (s. f.). Manual para el análisis de tendencias. https://centrodeinnovacion.mintic.gov.co/sites/default/files/guia-tendencias-v7.pdf',
+      'Centro de Innovación Pública Digital (s. f.). Manual para el análisis de tendencias.',
     link:
       'https://centrodeinnovacion.mintic.gov.co/sites/default/files/guia-tendencias-v7.pdf',
   },
   {
     referencia:
-      'Confecámaras. (2019). Informe de dinámica empresarial en Colombia. Año 2018. https://www.confecamaras.org.co/phocadownload/2018/Cuadernos_An%C3%A1lisis_Econ%C3%B3mico/Din%C3%A1mica_Empresarial/Din%C3%A1micaEmpresarial.pdf',
+      'Confecámaras. (2019). Informe de dinámica empresarial en Colombia. Año 2018.',
     link:
       'https://www.confecamaras.org.co/phocadownload/2018/Cuadernos_An%C3%A1lisis_Econ%C3%B3mico/Din%C3%A1mica_Empresarial/Din%C3%A1micaEmpresarial.pdf',
   },
   {
     referencia:
-      'Corma, F. (2018). El canvas de la innovación. Ediciones Díaz de Santos. https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/57533?page=1',
+      'Corma, F. (2018). El canvas de la innovación. Ediciones Díaz de Santos.',
     link:
       'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/57533?page=1',
   },
   {
     referencia:
-      'Max-Neef. (1998). Desarrollo a Escala Humana. Conceptos, aplicaciones y algunas reflexiones. Icaria Editorial. SENA. (2012). Ser empresario en seis pasos. https://repositorio.sena.edu.co/sitios/ser_empresario/serempresario1/index.html#',
+      'Max-Neef. (1998). Desarrollo a Escala Humana. Conceptos, aplicaciones y algunas reflexiones. Icaria Editorial. SENA. (2012). Ser empresario en seis pasos.',
     link:
       'https://repositorio.sena.edu.co/sitios/ser_empresario/serempresario1/index.html#',
   },
