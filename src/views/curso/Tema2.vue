@@ -10,14 +10,14 @@
     
     .row.m-0.align-items-center.mb-5
       .col-7.mb-4.mb-md-0
-        p.fs-3.fw-lighter
+        p.fs-3
           strong El análisis PESTEL 
           | es una herramienta que describe  el entorno en el que se desenvolverá el emprendimiento.
       .col-5
         .bloque-texto-a__texto.p-4
           p Este análisis describe los aspectos principales como la política, la economía, lo social, la tecnología, las políticas ambientales y las políticas legales.
     
-    p.fs-4.fw-lighter.text-center.w-75.mb-5.mx-auto La siguiente figura muestra el entorno general y específico que se debe describir en esta técnica.
+    p.fs-4.text-center.w-75.mb-5.mx-auto La siguiente figura muestra el entorno general y específico que se debe describir en esta técnica.
 
     .row.contColor--05.p-5.mb-5
       .col-12.col-md-7.mb-5.mb-md-0
@@ -56,7 +56,7 @@
           figure
             img(src="@/assets/curso/tema2/img04.svg", alt="preguntas guía")
     
-    Acordion(clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Factores políticos")
         p.mb-4 Son factores de tipo gubernamental que afectan el desempeño de las entidades. Se pueden considerar: la política fiscal, las restricciones al comercio o a la industria a la que pertenezca el emprendedor, situaciones de guerra, relaciones internacionales, entre otros. 
         p.mb-4 Se debe dar respuesta a preguntas como:
@@ -162,7 +162,14 @@
           li 
             i.fas.fa-angle-right
             | ¿Existe una regulaci&oacute;n clara sobre etiquetas?
-
+    
+    .cajon--c.p-4.mb-5.p-5.w-75.mx-auto
+      .row.align-items-center.justify-content-center
+        .col-6.col-md-2.mb-4.mb-md-0
+          figure
+            img(src="@/assets/curso/icon-alert.svg", alt="Alerta")
+        .col-12.col-md-10
+          p Este análisis permite mejorar la labor de dirección del emprendimiento y facilita la planificación estratégica para minimizar los riesgos externos a los cuales se enfrenta la empresa.
     
 </template>
 

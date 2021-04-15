@@ -38,44 +38,45 @@
             | Actividades profesionales científicas y técnicas el 
             strong 5,9%,
         
-        p y otras actividades de servicios 4,5 %; las cuales representan el 74,1 % del total de empresas (p. 2). En el mismo periodo, se cerraron 180.507 unidades productivas entre personas naturales y personas jurídicas (p. 10).
+        p y otras actividades de servicios 4,5 %; las cuales representan el 74,1 % del total de empresas. En el mismo periodo, se cerraron 180.507 unidades productivas entre personas naturales y personas jurídicas.
 
     p.w-75.mb-5 Se debe tener en cuenta que algunos de los factores que inciden en el fracaso de estas unidades productivas son, en su orden, los siguientes factores:
 
     .row.justify-content-center.mb-5
       .col-12.col-md-9
-        .row.align-items-center
-          .col-6
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check-square
-                | Financieros.
-              li 
-                i.fas.fa-check-square
-                | Organizacionales.
-              li 
-                i.fas.fa-check-square
-                | De mercado.
-              li 
-                i.fas.fa-check-square
-                | De recurso humano.
-              li 
-                i.fas.fa-check-square
-                | De entorno.
-              li 
-                i.fas.fa-check-square
-                | Operativos.
+        .row.align-items-center.justify-content-end
+          .col-4
+            div
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-check-square
+                  | Financieros.
+                li 
+                  i.fas.fa-check-square
+                  | Organizacionales.
+                li 
+                  i.fas.fa-check-square
+                  | De mercado.
+                li 
+                  i.fas.fa-check-square
+                  | De recurso humano.
+                li 
+                  i.fas.fa-check-square
+                  | De entorno.
+                li 
+                  i.fas.fa-check-square
+                  | Operativos.
           .col-6
             figure
               img(src="@/assets/curso/intro/img06.svg", alt="fracaso")
     
     .row.justify-content-center.mb-5
-      .col-12.col-md-10
-        .row.align-items-center.justify-content-center
+      .col-12.col-md-9
+        .row.justify-content-center
           .col-12.col-md-6.mb-4.mb-md-0
             p.mb-4
               strong Seg&uacute;n un estudio realizado por Global Entrepreneurship Monitor (GEM)
-              |  Colombia (2019), Colombia ocupa el s&eacute;ptimo puesto a nivel mundial en el nacimiento de emprendedores y, en Am&eacute;rica Latina, ocupa el tercer puesto despu&eacute;s de Chile (p. 52).
+              |  Colombia (2019), Colombia ocupa el s&eacute;ptimo puesto a nivel mundial en el nacimiento de emprendedores y, en Am&eacute;rica Latina, ocupa el tercer puesto despu&eacute;s de Chile.
             p
               | Por lo anterior, y con el fin que el emprendedor cuente con mayores herramientas para el an&aacute;lisis de las condiciones generales del emprendimiento, se han desarrollado algunas 
               strong herramientas como la metodolog&iacute;a CANVAS y el an&aacute;lisis PESTEL

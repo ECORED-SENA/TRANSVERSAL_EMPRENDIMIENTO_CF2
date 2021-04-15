@@ -25,17 +25,17 @@
         @extend .contDiv
         background-color: $color-curso-a        
         p, h4
-            color: $color-curso-c
+            color: $color-curso-e
     
     &--c
         @extend .contDiv
-        background-color: $color-curso-c 
+        background-color: $color-curso-e 
         p, h4
             color: $color-curso-a
     
     &--cl
         @extend .contDiv
-        background-color: lighten($color-curso-c, 10%) 
+        background-color: lighten($color-curso-e, 10%) 
         p, h4
             color: $color-curso-a
 
@@ -65,7 +65,7 @@
         @extend .cajonSlider
         background-color: $color-curso-a        
         p, h3, h4, h5
-            color: $color-curso-c
+            color: $color-curso-e
     
     &--e
         @extend .cajonSlider
@@ -77,8 +77,8 @@
 
 #nav-tab
     border: none
-    border-bottom: 2px solid $color-curso-c
-    background-color: lighten($color-curso-c, 15%)
+    border-bottom: 2px solid $color-curso-e
+    background-color: lighten($color-curso-e, 15%)
     border-radius: 8px 8px 0 0
 
     button
@@ -87,19 +87,19 @@
         transition: 0.5s
 
         &:hover
-            border: 3px solid $color-curso-c
-            background-color: lighten($color-curso-c, 10%)        
+            border: 3px solid $color-curso-e
+            background-color: lighten($color-curso-e, 10%)        
         
     .active
-        border-top: 3px solid $color-curso-c !important
-        border-right: 3px solid $color-curso-c !important
-        border-left: 3px solid $color-curso-c !important
+        border-top: 3px solid $color-curso-e !important
+        border-right: 3px solid $color-curso-e !important
+        border-left: 3px solid $color-curso-e !important
     
 #nav-tabContent
     padding: 26px
-    border-right: 3px solid $color-curso-c
-    border-left: 3px solid $color-curso-c
-    border-bottom: 3px solid $color-curso-c
+    border-right: 3px solid $color-curso-e
+    border-left: 3px solid $color-curso-e
+    border-bottom: 3px solid $color-curso-e
 
 //-----------------
 
@@ -295,7 +295,7 @@
     
     &--02
         @extend .MapaCont
-        background-color: lighten($colorDiv02, 2%)
+        background-color: lighten($colorDiv02, 3%)
     
     &--03
         @extend .MapaCont
@@ -310,7 +310,7 @@
         margin-bottom: -25px
     
     .DivMapaCont
-        padding: 40px 18px 18px 18px
+        padding: 48px 36px 36px 36px
         border-radius: 8px
 
         &--01
@@ -323,7 +323,7 @@
         
         &--02
             @extend .DivMapaCont
-            background-color: $colorDiv02
+            background-color: darken($colorDiv02, 2%)
 
             ul
                 i

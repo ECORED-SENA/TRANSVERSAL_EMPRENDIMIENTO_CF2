@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         .h3 1
-      .h3 Análisis de oportunidades para emprender 
+      .h3 Análisis de oportunidades para emprender
 
     p.mb-4 Para crear emprendimientos exitosos es importante, antes de iniciarlos, estudiar todas las variables posibles que puedan afectar la viabilidad del negocio, pues este es uno de los factores más importantes en la creación de los emprendimientos. 
 
@@ -18,20 +18,20 @@
         button#nav-12-tab.nav-link(data-bs-toggle='tab' data-bs-target='#nav-12' type='button' role='tab' aria-controls='nav-12' aria-selected='false') Entorno específico
     #nav-tabContent.tab-content.mb-5
       #nav-11.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='nav-11-tab')
-        .row.align-items-center.justify-content-center
+        .row.justify-content-around.p-4
           .col-12.col-md-7.mb-4.mb-md-0
             h4 Entorno general
             p Afecta a todas las empresas. Son muchos los aspectos que influyen en él, como los culturales, tecnológicos, políticos, legales, demográficos, sociológicos, económicos, etc. Estos factores pueden diferenciar y afectar la actividad económica entre países o economías más o menos desarrolladas. 
-          .col-9.col-md-5
+          .col-9.col-md-3
             figure
               img(src="@/assets/curso/tema1/img01.svg", alt="Entorno general")
         
       #nav-12.tab-pane.fade(role='tabpanel' aria-labelledby='nav-12-tab')
-        .row.align-items-center.justify-content-center
+        .row.justify-content-around.p-4
           .col-12.col-md-7.mb-4.mb-md-0
             h4 Entorno específico
             p Afecta de manera concreta a cada empresa y, por lo tanto, varía según el tipo de empresa. Por ejemplo, en una empresa industrial influyen aspectos como los proveedores, los clientes, la competencia, las políticas gubernamentales del sector, etc. 
-          .col-9.col-md-5
+          .col-9.col-md-3
             figure
               img(src="@/assets/curso/tema1/img02.svg", alt="Entorno específico")
     
@@ -79,7 +79,7 @@
           .h5.mb-0 Infografía. Análisis de oportunidades para emprender 
           p PDF 
         .col-sm-auto
-          a.boton.boton--b(href="/media/analisis_de oportunidades_para_emprender.pdf" target="_blank")
+          a.boton.boton--b(:href="obtenerLink('/media/analisis_de oportunidades_para_emprender.pdf')" target="_blank")
             span Descargar
             i.fas.fa-file-download
     
@@ -89,10 +89,10 @@
           figure
             img(src="@/assets/curso/icon-alert.svg", alt="Alerta")
         .col-12.col-md-10
-          p Una empresa tiene como finalidad crear riqueza y valor agregado para que todos los interesados, accionistas, propietarios, empleados, clientes, proveedores, progresen.
+          p La empresa, como unidad económica, debe afrontar el reto de adaptarse constantemente a los requerimientos del entorno cambiante, cuya influencia es constante y duradera.
 
-    p.mb-5
-      strong Es importante que antes de desarrollar la matriz DOFA o FODA personal,
+    p.mb-5.pb-3
+      strong Es importante que antes de desarrollar la matriz DOFA o FODA personal, 
       | el emprendedor, a través de la observación, analice las ideas de negocio, el mercado al cual espera llegar, el producto que desea producir, el servicio que desea prestar y observar, además de sus habilidades personales, entre muchas otras variables, y tomar también la decisión de desarrollar un producto o servicio en particular; para hacerlo puede tomar, como base, algunas de las siguientes preguntas: 
 
     #carouselC1.carousel.slide.mb-5(data-bs-ride='carousel', data-bs-interval='false')
@@ -179,7 +179,7 @@
         span.carousel-control-next-icon(aria-hidden='true')
         span.visually-hidden Next
 
-    #t_1_1.titulo-segundo
+    #t_1_1.titulo-segundo.mb-5.pt-5
       .h4 1.1 Definición del tipo de negocio
 
     p.mb-5 Después que el emprendedor ha desarrollado el modelo DOFA o FODA personal y ha identificado con mayor claridad sus fortalezas y debilidades, podrá definir si el producto o servicio que piensa desarrollar en su emprendimiento puede tener un mayor grado de éxito que aquel en el cual, el emprendedor, no conoce o no cuenta con las habilidades suficientes para su desarrollo. 
@@ -192,10 +192,10 @@
         .col-12.col-md-10
           p Se debe tener en cuenta que esta matriz es un método de prediagnóstico que permite formular ideas de negocio.
 
-    #t_1_2.titulo-segundo
+    #t_1_2.titulo-segundo.mb-5.pt-5
       .h4 1.2 Metodología CANVAS del entorno
     
-    h2.TextColor01.mb-4 ¿Qué es el modelo CANVAS?
+    h2.TextColor01.mt-5.mb-4.pt-2 ¿Qué es el modelo CANVAS?
 
     p.w-75.mb-5 El modelo CANVAS (en inglés Business Model Canvas) o lienzo de modelo de negocio, fue desarrollado en 2011 por Alexander Osterwalder y presenta, de forma simplificada, las diferentes variables para desarrollar y evaluar los modelos de negocio a desarrollar, existentes o cerrados; y se subdivide en cuatro áreas:
 
@@ -219,8 +219,8 @@
 
     p.w-75.text-center.mx-auto.mb-5 Cada una de estas áreas se explicará de forma general y, posteriormente, se entrará en detalle de cada uno de los módulos que componen el mapa estratégico.
 
-    .row.g-2.mb-5
-      .col-6
+    .row.g-2.mb-5.align-items-stretch.align-items-md-center
+      .col-6.col-md-4
         .contColor--03
           img.imgCCont.mx-auto(src='@/assets/curso/tema1/img05.svg', alt='Entorno competitivo')
           h5.text-center.mb-2 Entorno competitivo
@@ -235,7 +235,33 @@
             | • Nuevos competidores
             br
             | • Productos y servicios sustitutos
-      .col-6
+      .col-4.d-none.d-md-block
+        .contColor--04.mb-3
+          img.imgCCont.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='Tendencias')
+          h5.text-center.mb-2 Tendencias
+          p.fs-6.text-center.mb-3 TENDENCIAS CLAVE
+          p.text-center
+            | • Tecnológicas
+            br
+            | • Regulatorias
+            br
+            | • Sociales y culturales
+            br
+            | • Socioeconómicas
+        img.mb-3(src='@/assets/curso/tema1/img07.svg', alt='Mercado')
+        .contColor--02
+          img.imgCCont.mx-auto(src='@/assets/curso/tema1/img04.svg', alt='Entorno macroeconómico')
+          h5.text-center.mb-2 Entorno macroeconómico
+          p.fs-6.text-center.mb-3 FUERZAS MACROECONÓMICAS
+          p.text-center
+            | • Condiciones
+            br
+            | • Mercados de capitales
+            br
+            | • Infraestructura económica
+            br
+            | • Commodities y otros recursos
+      .col-6.col-md-4
         .contColor--01
           img.imgCCont.mx-auto(src='@/assets/curso/tema1/img03.svg', alt='Mercado')
           h5.text-center.mb-2 Mercado
@@ -250,10 +276,10 @@
             | • Costos de cambios
             br
             | • Atractivo de los ingresos
-      .col-12.d-flex.justify-content-center
+      .col-12.d-flex.justify-content-center.d-block.d-md-none
         .col-7.col-md-4
           img(src='@/assets/curso/tema1/img07.svg', alt='Mercado')
-      .col-6
+      .col-6.d-block.d-md-none
         .contColor--04
           img.imgCCont.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='Tendencias')
           h5.text-center.mb-2 Tendencias
@@ -266,7 +292,7 @@
             | • Sociales y culturales
             br
             | • Socioeconómicas
-      .col-6
+      .col-6.d-block.d-md-none
         .contColor--02
           img.imgCCont.mx-auto(src='@/assets/curso/tema1/img04.svg', alt='Entorno macroeconómico')
           h5.text-center.mb-2 Entorno macroeconómico
@@ -284,13 +310,16 @@
     
     .row.m-1.mb-4.contColor--03.w-75.justify-content-center
       .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
-        img.imgCCont.mx-auto(src='@/assets/curso/tema1/img05.svg', alt='Entorno competitivo')
-        p.fs-5.text-center Entorno competitivo
+        .row.w-100
+          .col-12
+            img.imgCCont.mx-auto(src='@/assets/curso/tema1/img05.svg', alt='Entorno competitivo')
+          .col-12
+            p.fs-5.text-center Entorno competitivo
       .col-1.d-none.d-md-block
         .lineDec--03
       .col-10.col-md-6
-        h6.text-center.mb-3 FUERZAS DE LA INDUSTRIA
-        p.text-center
+        h6.mb-3 FUERZAS DE LA INDUSTRIA
+        p
           | • Proveedores y otros actores de la cadena de valor
           br
           | • Stakeholders
@@ -303,7 +332,9 @@
 
     p.mb-5 El análisis del entorno competitivo se basa en el modelo desarrollado por el profesor Michael Porter, en la Escuela de Negocios de Harvard en el año 1979. Este modelo hace referencia a las fuerzas competitivas que se encuentran en el entorno del negocio, la competitividad y la rivalidad en una industria específica para definir, entonces, la rentabilidad del mercado en el cual se encontrará la nueva empresa.
 
-    Acordion.mb-5(clase-tarjeta="tarjeta tarjeta--azul")
+    p.mb-4 Según Porter, la situación competitiva de una empresa o de una línea de negocio, depende de cinco variables: 
+
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Poder de negociación de los clientes en la cadena de valor")
         p.mb-4 Es la capacidad que tienen los proveedores para imponer o determinar las características de las operaciones de compra y venta. Si en el mercado, en el que el emprendedor quiere acceder con su producto se encuentra con una asociación de clientes, estos pueden acordar o fijar precios a un determinado producto o servicio, lo que puede incidir en una baja tan sustancial del precio de venta (dada su estructura de costos), que puede afectar la rentabilidad en el negocio, o incluso tener que vender a pérdida. Si existen múltiples proveedores en el mercado, también se puede llegar a sufrir inconvenientes al momento de negociar, debido a que si no se logra un acuerdo en el precio, el comprador, sin inconveniente, puede recurrir a otro proveedor dejando al emprendedor con el producto y fuera del mercado. 
         p.mb-4 Otros factores con los que estas asociaciones pueden afectar al emprendedor son: la forma o modalidades de pago, productos en consignación, calidad, plazos de entrega, que pueden afectar de manera importante en el flujo de caja y que incide en la continuidad del negocio del emprendedor en el tiempo. 
@@ -326,13 +357,16 @@
     
     .row.m-1.mb-4.contColor--01.w-75.justify-content-center
       .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
-        img.imgCCont.mx-auto(src='@/assets/curso/tema1/img03.svg', alt='Mercado')
-        p.fs-5.text-center Mercado
+        .row.w-100
+          .col-12
+            img.imgCCont.mx-auto(src='@/assets/curso/tema1/img03.svg', alt='Entorno competitivo')
+          .col-12
+            p.fs-5.text-center Mercado
       .col-1.d-none.d-md-block
         .lineDec--01
       .col-10.col-md-6
-        h6.text-center.mb-3 FUERZAS DE MERCADO
-        p.text-center
+        h6.mb-3 FUERZAS DE MERCADO
+        p
           | • Segmentos de mercado
           br
           | • Necesidades y demanda
@@ -353,7 +387,7 @@
           strong Es en esta zona donde se definen las problemáticas de un determinado mercado o segmento del mercado, 
           | se analiza el atractivo de los ingresos, las rentabilidades que genera el producto o servicio ofrecido, los costos que genera un cambio en el producto, en su presentación, en su formulación, entre otros. 
       .col-10.col-md-5.cajon--01.p-4
-          h4 Actualmente existen variados mercados, por ejemplo:
+          h4.mb-5 Actualmente existen variados mercados, por ejemplo:
           ul.lista-ul
             li
               i.fas.fa-check-square
@@ -378,13 +412,16 @@
     
     .row.m-1.mb-4.contColor--04.w-75.justify-content-center
       .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
-        img.imgCCont.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='Tendencias')
-        p.fs-5.text-center Tendencias
+        .row.w-100
+          .col-12
+            img.imgCCont.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='Entorno competitivo')
+          .col-12
+            p.fs-5.text-center Tendencias
       .col-1.d-none.d-md-block
         .lineDec--04
       .col-10.col-md-6
-        h6.text-center.mb-3 TENDENCIAS CLAVE
-        p.text-center
+        h6.mb-3 TENDENCIAS CLAVE
+        p
           | • Tecnológicas
           br
           | • Regulatorias
@@ -393,7 +430,7 @@
           br
           | • Socioeconómicas
 
-    p.mb-5 Según el Centro de Innovación Pública Digital (s. f.), las tendencias son manifestaciones de consumo, mercado y estilo de vida que indican hacia dónde se dirige la innovación. Estas manifestaciones pueden estudiarse en hábitos imaginarios, deseos o consumos de personas, tanto como en casos o ejemplos de éxito en la oferta de mercado (p. 5).
+    p.mb-5 Según el Centro de Innovación Pública Digital (s. f.), las tendencias son manifestaciones de consumo, mercado y estilo de vida que indican hacia dónde se dirige la innovación. Estas manifestaciones pueden estudiarse en hábitos imaginarios, deseos o consumos de personas, tanto como en casos o ejemplos de éxito en la oferta de mercado.
 
     .row.align-items-center.mb-5
       .col-12.col-md-7.mb-4.mb-md-0
@@ -406,13 +443,16 @@
     
     .row.m-1.mb-4.contColor--02.w-75.justify-content-center
       .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
-        img.imgCCont.mx-auto(src='@/assets/curso/tema1/img04.svg', alt='Entorno macroeconómico')
-        p.fs-5.text-center Entorno macroeconómico
+        .row.w-100
+          .col-12
+            img.imgCCont.mx-auto(src='@/assets/curso/tema1/img04.svg', alt='Entorno competitivo')
+          .col-12
+            p.fs-5.text-center Entorno macroeconómico
       .col-1.d-none.d-md-block
         .lineDec--02
       .col-10.col-md-6
-        h6.text-center.mb-3 FUERZAS MACROECONÓMICAS
-        p.text-center
+        h6.mb-3 FUERZAS MACROECONÓMICAS
+        p
           | • Condiciones
           br
           | • Mercados de capitales
@@ -436,33 +476,33 @@
         button#nav-23-tab.nav-link(data-bs-toggle='tab' data-bs-target='#nav-23' type='button' role='tab' aria-controls='nav-23' aria-selected='false') La infraestructura económica
     #nav-tabContent.tab-content.mb-5
       #nav-21.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='nav-21-tab')
-        .row.align-items-center.justify-content-center
+        .row.align-items-center.justify-content-center.p-4
           .col-12.col-md-7.mb-4.mb-md-0
             h4 El mercado de capitales
-            p Afecta a todas las empresas. Son muchos los aspectos que influyen en él, como los culturales, tecnológicos, políticos, legales, demográficos, sociológicos, económicos, etc. Estos factores pueden diferenciar y afectar la actividad económica entre países o economías más o menos desarrolladas. 
+            p Es el lugar en el cual los oferentes y demandantes de dinero se encuentran para llevar a cabo una operación financiera. En este se capitulan acciones, obligaciones, títulos de deuda a corto, mediano y largo plazo.
           .col-9.col-md-5
             figure
-              img(src="@/assets/curso/tema1/img08.svg", alt="Entorno general")
+              img(src="@/assets/curso/tema1/img10.svg", alt="mercado de capitales")
         
       #nav-22.tab-pane.fade(role='tabpanel' aria-labelledby='nav-22-tab')
-        .row.align-items-center.justify-content-center
+        .row.align-items-center.justify-content-center.p-4
           .col-12.col-md-7.mb-4.mb-md-0
             h4 Los commodities
-            p Afecta de manera concreta a cada empresa y, por lo tanto, varía según el tipo de empresa. Por ejemplo, en una empresa industrial influyen aspectos como los proveedores, los clientes, la competencia, las políticas gubernamentales del sector, etc. 
+            p Corresponden a los bienes básicos que se transan sin ninguna modificación, procesamiento o característica diferenciadora. Se dividen en metales industriales, agrícolas y otros; su valor se fija sobre la relación de oferta y demanda.
+          .col-9.col-md-5
+            figure
+              img(src="@/assets/curso/tema1/img08.svg", alt="Entorno específico")
+      
+      #nav-23.tab-pane.fade(role='tabpanel' aria-labelledby='nav-23-tab')
+        .row.align-items-center.justify-content-center.p-4
+          .col-12.col-md-7.mb-4.mb-md-0
+            h4 La infraestructura económica
+            p Hace referencia a la infraestructura marítima, terrestre y aérea, así como las condiciones de aeropuertos, carreteras y puertos fluviales que facilitan o entorpecen el movimiento o traslado de las mercancías al interior o fuera del país. En el caso colombiano, el lugar de mayor concentración de producción de todo tipo se encuentra en la región central del país, lo que hace que exportar, vía marítima, sea más costoso. 
           .col-9.col-md-5
             figure
               img(src="@/assets/curso/tema1/img09.svg", alt="Entorno específico")
-      
-      #nav-23.tab-pane.fade(role='tabpanel' aria-labelledby='nav-23-tab')
-        .row.align-items-center.justify-content-center
-          .col-12.col-md-7.mb-4.mb-md-0
-            h4 La infraestructura económica
-            p Afecta de manera concreta a cada empresa y, por lo tanto, varía según el tipo de empresa. Por ejemplo, en una empresa industrial influyen aspectos como los proveedores, los clientes, la competencia, las políticas gubernamentales del sector, etc. 
-          .col-9.col-md-5
-            figure
-              img(src="@/assets/curso/tema1/img10.svg", alt="Entorno específico")
 
-    #t_1_3.titulo-segundo
+    #t_1_3.titulo-segundo.mb-5.pt-5
       .h4 1.3 Desarrollo del mapa estratégico
 
     p.mb-5 Anteriormente se dijo que el modelo CANVAS del entorno, es un lienzo de modelo de negocio y se analizaron cada una de las cuatro áreas en que se subdivide. Ahora se profundizará en el estudio de las nueve partes o subdivisiones que representan los principales aspectos que se involucran en el negocio, respecto a la propuesta de valor que ofrece el emprendimiento.    
@@ -648,7 +688,7 @@
               .h5.mb-0 Matriz de necesidades y satisfactores de Max-Neef.
               p PDF 
             .col-sm-auto
-              a.boton.boton--b(href="/media/Necesidades_humanas_fund.pdf" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/media/Necesidades_humanas_fund.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
       
@@ -718,9 +758,6 @@
         img.imgMapaCont.mx-auto(src='@/assets/curso/tema1/img17.svg', alt='preguntas')
         .DivMapaCont--01
           ul.lista-ul
-            li
-              i.fas.fa-check-square
-              | Los organizacionales.
             li
               i.fas.fa-check-square
               |  ¿Para qui&eacute;n se crea valor?
@@ -815,7 +852,7 @@
           .h5.mb-0 Modelo Canvas
           p PDF 
         .col-sm-auto
-          a.boton.boton--b(href="/media/Plantilla_modelo_CANVAS.pdf" target="_blank")
+          a.boton.boton--b(:href="obtenerLink('/media/Plantilla_modelo_CANVAS.pdf')" target="_blank")
             span Descargar
             i.fas.fa-file-download
 

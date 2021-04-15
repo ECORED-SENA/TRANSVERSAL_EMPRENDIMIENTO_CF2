@@ -50,7 +50,7 @@ export const menuPrincipal = {
       nombreRuta: 'tema2',
       icono: 'far fa-file-alt',
       numero: '2',
-      titulo: 'Elementos organizacionales de la empresa',
+      titulo: 'Análisis PESTEL',
       desarrolloContenidos: true,
     },
   ],
@@ -93,6 +93,7 @@ export const creditos = {
   liderEquipo: {
     nombre: 'Maria Camila Garcia Santamaria',
     cargo: 'Líder del equipo',
+    centro: 'Dirección general',
   },
   contenidoInstruccional: [
     {
@@ -102,13 +103,19 @@ export const creditos = {
       regional: 'Regional Santander',
     },
     {
-      nombre: 'Tania Yaneth Ramírez Benítez',
-      cargo: 'Soporte organizacional',
-      centro: 'Centro de comercio y servicios',
-      regional: 'Regional Tolima',
+      nombre: 'Vilma Lucía Perilla Méndez',
+      cargo: 'Experta y Diseñadora Instruccional',
+      centro: 'Centro de Gestión Industrial',
+      regional: 'Regional Distrito Capital',
     },
     {
-      nombre: 'Martha Isabel Martínez Vargas',
+      nombre: 'Ana Catalina Córdoba Sus',
+      cargo: 'Diseñadora Instruccional',
+      centro: 'Centro para la Industria de la Comunicación Gráfica',
+      regional: 'Regional Distrito Capital',
+    },
+    {
+      nombre: 'María Isabel Román Rueda',
       cargo: 'Revisora de estilo',
       centro: 'Centro Industrial Del Diseño Y La Manufactura',
       regional: 'Regional Santander',
@@ -124,11 +131,25 @@ export const creditos = {
       cargo: 'Soporte organizacional',
     },
     {
-      nombre: ['Carlos Julián Ramírez Benítez', 'Zuleidy Maria Ruiz Torres'],
+      nombre: [
+        'Camilo Andrés Villamizar Lizcano',
+        'Carlos Julián Ramírez Benítez',
+        'Maria Camila Ovalle Ospina',
+        'Nelson Iván Vera Briceño',
+        'Lady Adriana Ariza Luque',
+        'Victor Raúl Cárdenas Cáceres',
+        'Wilson Andres Arenales Cáceres',
+        'Zuleidy Maria Ruiz Torres',
+      ],
       cargo: 'Diseño web y Producción Audiovisual',
     },
     {
-      nombre: 'Luis Gabriel Urueta Alvarez',
+      nombre: [
+        'Edward Leonardo Pico Cabra',
+        'Daniel Ricardo Mutis Gómez',
+        'Luis Gabriel Urueta Alvarez',
+        'Ricardo Alfonso González Vargas',
+      ],
       cargo: 'Desarrollo Front-End',
     },
     {
@@ -149,31 +170,31 @@ export const creditos = {
 export const referencias = [
   {
     referencia:
-      'Alfaro, J., González, C. & Pina, M. (2013). Economía de la empresa. McGraw Hill.',
+      'Alfaro, J., González, C. & Pina, M. (2013). Economía de la empresa. McGraw Hill. https://www.mhe.es/materia_familia.php?sub_materia=59&materia=17&nivel=B&comunidad=Castellano',
     link:
       'https://www.mhe.es/materia_familia.php?sub_materia=59&materia=17&nivel=B&comunidad=Castellano',
   },
   {
     referencia:
-      'Centro de Innovación Pública Digital (s. f.). Manual para el análisis de tendencias.',
+      'Centro de Innovación Pública Digital (s. f.). Manual para el análisis de tendencias. https://centrodeinnovacion.mintic.gov.co/sites/default/files/guia-tendencias-v7.pdf',
     link:
       'https://centrodeinnovacion.mintic.gov.co/sites/default/files/guia-tendencias-v7.pdf',
   },
   {
     referencia:
-      'Confecámaras. (2019). Informe de dinámica empresarial en Colombia. Año 2018.',
+      'Confecámaras. (2019). Informe de dinámica empresarial en Colombia. Año 2018. https://www.confecamaras.org.co/phocadownload/2018/Cuadernos_An%C3%A1lisis_Econ%C3%B3mico/Din%C3%A1mica_Empresarial/Din%C3%A1micaEmpresarial.pdf',
     link:
       'https://www.confecamaras.org.co/phocadownload/2018/Cuadernos_An%C3%A1lisis_Econ%C3%B3mico/Din%C3%A1mica_Empresarial/Din%C3%A1micaEmpresarial.pdf',
   },
   {
     referencia:
-      'Corma, F. (2018). El canvas de la innovación. Ediciones Díaz de Santos.',
+      'Corma, F. (2018). El canvas de la innovación. Ediciones Díaz de Santos. https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/57533?page=1',
     link:
       'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/57533?page=1',
   },
   {
     referencia:
-      'Max-Neef. (1998). Desarrollo a Escala Humana. Conceptos, aplicaciones y algunas reflexiones. Icaria Editorial. SENA. (2012). Ser empresario en seis pasos. ',
+      'Max-Neef. (1998). Desarrollo a Escala Humana. Conceptos, aplicaciones y algunas reflexiones. Icaria Editorial. SENA. (2012). Ser empresario en seis pasos. https://repositorio.sena.edu.co/sitios/ser_empresario/serempresario1/index.html#',
     link:
       'https://repositorio.sena.edu.co/sitios/ser_empresario/serempresario1/index.html#',
   },
