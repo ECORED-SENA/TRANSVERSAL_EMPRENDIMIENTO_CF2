@@ -201,21 +201,22 @@
 
     .row.g-2.mb-5
       .col-6.col-md-3
-        .contColor--03
-          img.imgCCont.mx-auto(src='@/assets/curso/tema1/img05.svg', alt='Entorno competitivo')
-          p.fs-5.text-center Entorno competitivo
-      .col-6.col-md-3
         .contColor--01
           img.imgCCont.mx-auto(src='@/assets/curso/tema1/img03.svg', alt='Mercado')
           p.fs-5.text-center Mercado
       .col-6.col-md-3
+        .contColor--02
+          img.imgCCont.mx-auto(src='@/assets/curso/tema1/img04.svg', alt='Entorno macroeconómico')
+          p.fs-5.text-center Entorno macroeconómico
+      .col-6.col-md-3
+        .contColor--03
+          img.imgCCont.mx-auto(src='@/assets/curso/tema1/img05.svg', alt='Entorno competitivo')
+          p.fs-5.text-center Entorno competitivo
+      .col-6.col-md-3
         .contColor--04
           img.imgCCont.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='Tendencias')
           p.fs-5.text-center Tendencias
-      .col-6.col-md-3
-        .contColor--02
-          img.imgCCont.mx-auto(src='@/assets/curso/tema1/img04.svg', alt='Entorno macroeconómico')
-          p.fs-5.text-center Entorno macroeconómico      
+
 
     p.w-75.text-center.mx-auto.mb-5 Cada una de estas áreas se explicará de forma general y, posteriormente, se entrará en detalle de cada uno de los módulos que componen el mapa estratégico.
 
@@ -305,55 +306,8 @@
             | • Infraestructura económica
             br
             | • Commodities y otros recursos
-
-    .h5.mb-5 1.2.1 Entorno competitivo 
     
-    .row.m-1.mb-4.contColor--03.w-75.justify-content-center
-      .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
-        .row.w-100
-          .col-12
-            img.imgCCont.mx-auto(src='@/assets/curso/tema1/img05.svg', alt='Entorno competitivo')
-          .col-12
-            p.fs-5.text-center Entorno competitivo
-      .col-1.d-none.d-md-block
-        .lineDec--03
-      .col-10.col-md-6
-        h6.mb-3 FUERZAS DE LA INDUSTRIA
-        p
-          | • Proveedores y otros actores de la cadena de valor
-          br
-          | • Stakeholders
-          br
-          | • Competidores actuales
-          br
-          | • Nuevos competidores
-          br
-          | • Productos y servicios sustitutos
-
-    p.mb-5 El análisis del entorno competitivo se basa en el modelo desarrollado por el profesor Michael Porter, en la Escuela de Negocios de Harvard en el año 1979. Este modelo hace referencia a las fuerzas competitivas que se encuentran en el entorno del negocio, la competitividad y la rivalidad en una industria específica para definir, entonces, la rentabilidad del mercado en el cual se encontrará la nueva empresa.
-
-    p.mb-4 Según Porter, la situación competitiva de una empresa o de una línea de negocio, depende de cinco variables: 
-
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Poder de negociación de los clientes en la cadena de valor")
-        p.mb-4 Es la capacidad que tienen los proveedores para imponer o determinar las características de las operaciones de compra y venta. Si en el mercado, en el que el emprendedor quiere acceder con su producto se encuentra con una asociación de clientes, estos pueden acordar o fijar precios a un determinado producto o servicio, lo que puede incidir en una baja tan sustancial del precio de venta (dada su estructura de costos), que puede afectar la rentabilidad en el negocio, o incluso tener que vender a pérdida. Si existen múltiples proveedores en el mercado, también se puede llegar a sufrir inconvenientes al momento de negociar, debido a que si no se logra un acuerdo en el precio, el comprador, sin inconveniente, puede recurrir a otro proveedor dejando al emprendedor con el producto y fuera del mercado. 
-        p.mb-4 Otros factores con los que estas asociaciones pueden afectar al emprendedor son: la forma o modalidades de pago, productos en consignación, calidad, plazos de entrega, que pueden afectar de manera importante en el flujo de caja y que incide en la continuidad del negocio del emprendedor en el tiempo. 
-        p Una de las premisas en la administración es que, la mayoría de las veces, las empresas no fracasan por la rentabilidad, sino por no generar un flujo de caja para la continuidad del negocio.
-
-      div(titulo="Poder de negociación de los proveedores o vendedores")
-        p Es la capacidad que tienen los proveedores para imponer o determinar las condiciones en un determinado mercado, las características de las operaciones, la forma de pago, la presentación y las características de calidad del producto o servicio suministrado.
-      
-      div(titulo="Amenaza de nuevos competidores")
-        p Hace referencia a la posibilidad que existe del ingreso de nuevos competidores en un mercado. Por ejemplo, si el mercado está o no regulado, si existen o no barreras arancelarias para la entrada de productos de otros países, si se es un pequeño productor y llega, al país o región, un competidor que pueda realizar la misma producción a través de una economía de escala, si el nuevo competidor puede acceder a grandes inversiones de capital, lo que significa un menor costo.
-      
-      div(titulo="Amenaza de productos sustitutos")
-        p.mb-4 Hace referencia a la posibilidad que tiene el mercado de cambiar o sustituir un producto o servicio por otro de igual o mejor calidad. Por ejemplo: que el nuevo producto cuente con mayores desarrollos tecnológicos que hagan que el cliente prefiera el producto de la competencia con mucha facilidad. 
-        p Algunos factores que pueden minimizar esta amenaza son: la dificultad que tengan los clientes para sustituir el producto o unos costos elevados para hacerlo, o un nivel elevado de diferenciación del producto.
-      
-      div(titulo="Rivalidad entre los competidores")
-        p La existencia de un mercado con mucha competencia determinará el éxito del negocio y sus expectativas de futuro, debido a que lo hacen menos atractivo. Se considera también que los factores anteriores tienen la capacidad para determinar el grado de rivalidad interna del mercado que, habitualmente, depende de la estructura de la competencia y los elevados costos fijos.
-    
-    .h5.mb-5 1.2.2 Mercado
+    .h5.mb-5 1.2.1 Mercado
     
     .row.m-1.mb-4.contColor--01.w-75.justify-content-center
       .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
@@ -408,38 +362,7 @@
               i.fas.fa-check-square
               | La producción, entre otros.
     
-    .h5.mb-5 1.2.3 Tendencias
-    
-    .row.m-1.mb-4.contColor--04.w-75.justify-content-center
-      .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
-        .row.w-100
-          .col-12
-            img.imgCCont.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='Entorno competitivo')
-          .col-12
-            p.fs-5.text-center Tendencias
-      .col-1.d-none.d-md-block
-        .lineDec--04
-      .col-10.col-md-6
-        h6.mb-3 TENDENCIAS CLAVE
-        p
-          | • Tecnológicas
-          br
-          | • Regulatorias
-          br
-          | • Sociales y culturales
-          br
-          | • Socioeconómicas
-
-    p.mb-5 Según el Centro de Innovación Pública Digital (s. f.), las tendencias son manifestaciones de consumo, mercado y estilo de vida que indican hacia dónde se dirige la innovación. Estas manifestaciones pueden estudiarse en hábitos imaginarios, deseos o consumos de personas, tanto como en casos o ejemplos de éxito en la oferta de mercado.
-
-    .row.align-items-center.mb-5
-      .col-12.col-md-7.mb-4.mb-md-0
-        p A través del análisis de tendencias, se puede construir una idea más sólida del producto o servicio a desarrollar; permite proyectar una tendencia en las ventas, entender el estado actual de un producto o servicio, si este se encuentra actualmente en una fase de iniciación o es pionero, y si se encuentra en su auge o en el proceso de decadencia.
-      .col-9.col-md-5
-        figure
-          img(src="@/assets/curso/tema1/img11.svg", alt="análisis de tendencias")
-    
-    .h5.mb-5 1.2.4 Entorno macroeconómico
+    .h5.mb-5 1.2.2 Entorno macroeconómico
     
     .row.m-1.mb-4.contColor--02.w-75.justify-content-center
       .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
@@ -501,6 +424,85 @@
           .col-9.col-md-5
             figure
               img(src="@/assets/curso/tema1/img09.svg", alt="Entorno específico")
+    
+    .h5.mb-5 1.2.3 Entorno competitivo 
+    
+    .row.m-1.mb-4.contColor--03.w-75.justify-content-center
+      .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
+        .row.w-100
+          .col-12
+            img.imgCCont.mx-auto(src='@/assets/curso/tema1/img05.svg', alt='Entorno competitivo')
+          .col-12
+            p.fs-5.text-center Entorno competitivo
+      .col-1.d-none.d-md-block
+        .lineDec--03
+      .col-10.col-md-6
+        h6.mb-3 FUERZAS DE LA INDUSTRIA
+        p
+          | • Proveedores y otros actores de la cadena de valor
+          br
+          | • Stakeholders
+          br
+          | • Competidores actuales
+          br
+          | • Nuevos competidores
+          br
+          | • Productos y servicios sustitutos
+
+    p.mb-5 El análisis del entorno competitivo se basa en el modelo desarrollado por el profesor Michael Porter, en la Escuela de Negocios de Harvard en el año 1979. Este modelo hace referencia a las fuerzas competitivas que se encuentran en el entorno del negocio, la competitividad y la rivalidad en una industria específica para definir, entonces, la rentabilidad del mercado en el cual se encontrará la nueva empresa.
+
+    p.mb-4 Según Porter, la situación competitiva de una empresa o de una línea de negocio, depende de cinco variables: 
+
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+      .row(titulo="Poder de negociación de los clientes en la cadena de valor")
+        p.mb-4 Es la capacidad que tienen los proveedores para imponer o determinar las características de las operaciones de compra y venta. Si en el mercado, en el que el emprendedor quiere acceder con su producto se encuentra con una asociación de clientes, estos pueden acordar o fijar precios a un determinado producto o servicio, lo que puede incidir en una baja tan sustancial del precio de venta (dada su estructura de costos), que puede afectar la rentabilidad en el negocio, o incluso tener que vender a pérdida. Si existen múltiples proveedores en el mercado, también se puede llegar a sufrir inconvenientes al momento de negociar, debido a que si no se logra un acuerdo en el precio, el comprador, sin inconveniente, puede recurrir a otro proveedor dejando al emprendedor con el producto y fuera del mercado. 
+        p.mb-4 Otros factores con los que estas asociaciones pueden afectar al emprendedor son: la forma o modalidades de pago, productos en consignación, calidad, plazos de entrega, que pueden afectar de manera importante en el flujo de caja y que incide en la continuidad del negocio del emprendedor en el tiempo. 
+        p Una de las premisas en la administración es que, la mayoría de las veces, las empresas no fracasan por la rentabilidad, sino por no generar un flujo de caja para la continuidad del negocio.
+
+      div(titulo="Poder de negociación de los proveedores o vendedores")
+        p Es la capacidad que tienen los proveedores para imponer o determinar las condiciones en un determinado mercado, las características de las operaciones, la forma de pago, la presentación y las características de calidad del producto o servicio suministrado.
+      
+      div(titulo="Amenaza de nuevos competidores")
+        p Hace referencia a la posibilidad que existe del ingreso de nuevos competidores en un mercado. Por ejemplo, si el mercado está o no regulado, si existen o no barreras arancelarias para la entrada de productos de otros países, si se es un pequeño productor y llega, al país o región, un competidor que pueda realizar la misma producción a través de una economía de escala, si el nuevo competidor puede acceder a grandes inversiones de capital, lo que significa un menor costo.
+      
+      div(titulo="Amenaza de productos sustitutos")
+        p.mb-4 Hace referencia a la posibilidad que tiene el mercado de cambiar o sustituir un producto o servicio por otro de igual o mejor calidad. Por ejemplo: que el nuevo producto cuente con mayores desarrollos tecnológicos que hagan que el cliente prefiera el producto de la competencia con mucha facilidad. 
+        p Algunos factores que pueden minimizar esta amenaza son: la dificultad que tengan los clientes para sustituir el producto o unos costos elevados para hacerlo, o un nivel elevado de diferenciación del producto.
+      
+      div(titulo="Rivalidad entre los competidores")
+        p La existencia de un mercado con mucha competencia determinará el éxito del negocio y sus expectativas de futuro, debido a que lo hacen menos atractivo. Se considera también que los factores anteriores tienen la capacidad para determinar el grado de rivalidad interna del mercado que, habitualmente, depende de la estructura de la competencia y los elevados costos fijos.
+
+    .h5.mb-5 1.2.4 Tendencias
+    
+    .row.m-1.mb-4.contColor--04.w-75.justify-content-center
+      .col-12.col-md-5.d-flex.align-items-center.mb-4.mb-md-0
+        .row.w-100
+          .col-12
+            img.imgCCont.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='Entorno competitivo')
+          .col-12
+            p.fs-5.text-center Tendencias
+      .col-1.d-none.d-md-block
+        .lineDec--04
+      .col-10.col-md-6
+        h6.mb-3 TENDENCIAS CLAVE
+        p
+          | • Tecnológicas
+          br
+          | • Regulatorias
+          br
+          | • Sociales y culturales
+          br
+          | • Socioeconómicas
+
+    p.mb-5 Según el Centro de Innovación Pública Digital (s. f.), las tendencias son manifestaciones de consumo, mercado y estilo de vida que indican hacia dónde se dirige la innovación. Estas manifestaciones pueden estudiarse en hábitos imaginarios, deseos o consumos de personas, tanto como en casos o ejemplos de éxito en la oferta de mercado.
+
+    .row.align-items-center.mb-5
+      .col-12.col-md-7.mb-4.mb-md-0
+        p A través del análisis de tendencias, se puede construir una idea más sólida del producto o servicio a desarrollar; permite proyectar una tendencia en las ventas, entender el estado actual de un producto o servicio, si este se encuentra actualmente en una fase de iniciación o es pionero, y si se encuentra en su auge o en el proceso de decadencia.
+      .col-9.col-md-5
+        figure
+          img(src="@/assets/curso/tema1/img11.svg", alt="análisis de tendencias")
+    
 
     #t_1_3.titulo-segundo.mb-5.pt-5
       .h4 1.3 Desarrollo del mapa estratégico
